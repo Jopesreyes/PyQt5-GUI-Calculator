@@ -23,7 +23,7 @@ class CalculatorWindow(QtWidgets.QMainWindow, Ui_calculator):
 
         self.pushButton_decimal.clicked.connect(self.decimal_pressed)
 
-        self.pushButton_percent.clicked.connect(self.unary_operation_pressed)
+        self.pushButton_percent.clicked.connect(self.unary_bt_clicked)
 
         self.pushButton_plus.clicked.connect(self.binary_btns_clicked)
         self.pushButton_minus.clicked.connect(self.binary_btns_clicked)
